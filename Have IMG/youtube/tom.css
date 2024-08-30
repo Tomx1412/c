@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 200px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.all{
+    box-shadow: 0 1px 4px rgba(112, 128, 144, 0.425);
+    width: 500px;
+    height: 112px;
+    margin-bottom: 10px;
+    display: block;
+}
+.all:hover{
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    transition: 0.4s;
+}
+
+div{
+    display: inline-block;
+}
+
+.text{
+    vertical-align:top;
+    color: rgba(93, 105, 117, 0.87);
+}
+
+.dam{
+    color: black;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.pic{
+    height: 112px;
+}
+
+.allall{
+    display: block;
+    margin-left: 50px;
+}
+
+.anh{
+    margin-top: 100px;
+}

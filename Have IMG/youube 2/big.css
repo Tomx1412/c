@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logoyoutube{
+    width: 120px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logoyoutube:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border: none;
+    border-color: slategray;
+    padding-left: 10px;
+    font-size: 16px;
+    display: inline-block;
+    color: slategray;
+    vertical-align: top;
+    border-bottom-left-radius: 20px;
+}
+
+.kiem{
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    display: inline-block;
+    border-left: 1px solid rgba(112, 128, 144, 0.315);
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.mic{
+    width: 25px;
+    height: 25px;
+    border: none;
+    opacity: 40%;
+    padding-right: 10px;
+}
+
+.tim{
+    box-shadow: 0 1px 4px rgba(112, 128, 144, 0.699);
+    display: inline-block;
+    border-radius: 100px;
+    margin-left: 400px;
+}
+
+.all{
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.cham{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+.anhl{
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.dn{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid rgba(112, 128, 144, 0.521);
+    background-color: white;
+}
+
+.login{
+    margin-top: 20px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.anhmic{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid rgba(112, 128, 144, 0.486);
+}
+
+.btnmic{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    border: none;
+}
+
+.divmic{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.nut{
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+.nut:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+.nutall{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.kenh,.vdo{
+    display: inline-block;
+}
+
+.vdo{
+    gap: 20px;
+}

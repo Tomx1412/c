@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding-left: 75px;
+}
+.anhbu{
+    width: 100%;
+}
+
+.minipic{
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d{
+    width: 300px;
+    font-size: 12px;
+}
+
+.anh{
+    display: inline-block;
+}
+
+.minipic{
+    display: inline-block;
+}
+
+.d{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    
+}
+
+.d2{
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+.d3{
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+.all:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.anhbu{
+    border-radius: 10px;
+}

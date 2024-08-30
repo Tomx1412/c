@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    display: inline-block;
+    
+}
+
+.hinh{
+    display: inline-block;
+    margin-left: 470px;
+    vertical-align: top;
+    color: black;
+    font-size: 25px;
+}
+.hinh:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.4s;
+}
+
+.card{
+    border-bottom: 1px solid rgba(112, 128, 144, 0.699);
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.anh{
+    width: 300px;
+}
+.anh:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.all{
+    padding: 10px;
+    width: 700px;
+    box-shadow: 0 1px 4px rgb(112, 128, 144);
+    margin-left: 600px;
+    margin-top: 300px;
+    background-color: white;
+}
+
+.chu{
+    display: block;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.chu1{
+    display: block;
+    font-size: 14px;
+    color: rgba(112, 128, 144, 0.678);
+    margin-left: 10px;
+}
+
+.gia{
+    display: block;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgba(112, 128, 144, 0.815);
+}
+
+.card1{
+    display: inline-block;
+    border-right: 1px solid rgba(112, 128, 144, 0.699);
+}
+
+.card2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chudai{
+    color: rgba(112, 128, 144, 0.678);
+    width: 300px;
+    margin-left: 10px;
+}
+
+.nuta{
+    display: inline-block;
+}
+
+.nutw{
+    display: inline-block;
+}
+.btn{
+    margin-top: 20px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgba(112, 128, 144, 0.63);
+    margin-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
+.hinh1{
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+body{
+    background-color: rgb(131, 240, 207);
+}

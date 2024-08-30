@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.all{
+    margin: 20px ;
+    width: 500px;
+    height: 80px;
+    box-shadow: 0 1px 4px rgba(112, 128, 144, 0.43);
+    display: block;
+}
+
+button{
+    padding: 5px 7px;
+    background-color: rgb(21, 157, 255);
+    border: none;
+    border-radius: 3px;
+}
+
+div{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 5px;
+}
+
+.o{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(112, 128, 144, 0.563);
+    
+}
+
+.t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(112, 128, 144, 0.563);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.BTN-m{
+    margin-left: 255px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 0.4;
+}
+
+.BTN-r{
+    margin-left: 235px;
+}
+
+.BTN-o{
+    margin-left: 270px;
+}
